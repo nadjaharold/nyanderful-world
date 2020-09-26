@@ -38,7 +38,7 @@ $ yarn generate
 ### Test
 
 - Jest
-  ![Result](/test-result.jpg)
+  ![Result](test-result.jpg)
 
 ### Linter
 

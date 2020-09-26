@@ -145,7 +145,7 @@ export default Vue.extend({
 .choice {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 30px 0 0;
+  padding: 30px 0;
   @include breakpoint-min(xxl) {
     width: calc(100% - 60px);
   }
@@ -153,7 +153,7 @@ export default Vue.extend({
     width: calc(100% - 30px);
   }
   .v-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9) !important;
     &:nth-child(1) {
       margin: 0px 0 30px;
     }

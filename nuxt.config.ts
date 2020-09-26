@@ -17,6 +17,61 @@ export default {
         name: 'description',
         content: '見て！しーちゃんとキャンちゃんが遊んでるよ、可愛いね。',
       },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Nyanderful World',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Nyanderful World',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: '見て！しーちゃんとキャンちゃんが遊んでるよ、可愛いね。',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: '見て！しーちゃんとキャンちゃんが遊んでるよ、可愛いね。',
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://naughty-engelbart-0f3944.netlify.app/ogp.jpg',
+      },
+      {
+        hid: 'og:image:width',
+        name: 'og:image:width',
+        content: 1200,
+      },
+      {
+        hid: 'og:image:height',
+        name: 'og:image:height',
+        content: 630,
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Nyanderful World',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://naughty-engelbart-0f3944.netlify.app/ogp.jpg',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
