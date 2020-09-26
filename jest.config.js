@@ -1,4 +1,5 @@
 module.exports = {
+  setupFiles: ['<rootDir>/test/unit/setup.js'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
@@ -19,7 +20,8 @@ module.exports = {
     '<rootDir>/node_modules',
     '<rootDir>/.vscode',
     '<rootDir>/coverage',
-    '<rootDir>/mixins',
+    '<rootDir>/components/Header.vue',
+    '<rootDir>/components/Loading.vue',
   ],
   transformIgnorePatterns: ['node_modules/(?!epic-spinners)'],
 }
