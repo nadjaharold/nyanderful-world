@@ -153,8 +153,10 @@ export default Vue.extend({
     width: calc(100% - 30px);
   }
   .v-card {
-    margin: 0px 0 30px;
     background: rgba(255, 255, 255, 0.9);
+    &:nth-child(1) {
+      margin: 0px 0 30px;
+    }
   }
   h2 {
     padding: 40px 60px 0;
@@ -258,13 +260,13 @@ export default Vue.extend({
     }
   }
   &__answer {
-    padding: 20px 60px 40px;
+    padding: 0px 60px 40px;
     font-size: 1.2rem;
     @include breakpoint-min(xxl) {
-      padding: 15px 30px 25px;
+      padding: 0px 30px 25px;
     }
     @include breakpoint-min(sm) {
-      padding: 10px 10px 20px;
+      padding: 0px 10px 20px;
     }
     .anger--active {
       display: inline-block;

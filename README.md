@@ -1,6 +1,10 @@
-# nyanderful-world
+# Nyanderful World 🐈 🐈
 
-## Build Setup
+## About
+
+demo: [Netlify: https://naughty-engelbart-0f3944.netlify.app/](https://naughty-engelbart-0f3944.netlify.app/)
+
+## Usage
 
 ```bash
 # install dependencies
@@ -17,4 +21,34 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Library
+
+### UI Framework
+
+- Vuetify
+
+### JavaScript
+
+- TypeScript
+
+### CSS
+
+- Scss
+
+### Test
+
+- Jest
+  ![Result](/test-result.jpg)
+
+### Linter
+
+- Eslint
+- Prettier
+
+### Hosting
+
+- Netlify
+
+## Contribution
+
+- Please Create Issues, or Pull Requests.

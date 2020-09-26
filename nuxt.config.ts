@@ -7,12 +7,16 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - nyanderful-world',
-    title: 'nyanderful-world',
+    titleTemplate: 'Nyanderful World',
+    title: 'Nyanderful World',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: '見て！しーちゃんとキャンちゃんが遊んでるよ、可愛いね。',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
